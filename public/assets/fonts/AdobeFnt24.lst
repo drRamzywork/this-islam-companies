@@ -1,0 +1,412 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:.MunaPUA
+FamilyName:.Muna PUA
+StyleName:Regular
+MenuName:.Muna PUA
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:.Muna PUA
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Muna.ttc
+TTCOffset:316
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207352
+FileModTime:628436773
+NameArray:0,Mac,4,.Muna PUA
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:.MunaPUABlack
+FamilyName:.Muna PUA
+StyleName:Black
+MenuName:.Muna PUA
+StyleBits:2
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:.Muna PUA Black
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Muna.ttc
+TTCOffset:1356
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207352
+FileModTime:628436773
+NameArray:0,Mac,4,.Muna PUA Black
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:.MunaPUABold
+FamilyName:.Muna PUA
+StyleName:Bold
+MenuName:.Muna PUA
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:.Muna PUA Bold
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Muna.ttc
+TTCOffset:836
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207352
+FileModTime:628436773
+NameArray:0,Mac,4,.Muna PUA Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/AdobeFnt24.lst
+FileLength:10095
+FileModTime:747071797
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NeoSansArabic
+FamilyName:Neo Sans Arabic
+StyleName:Regular
+MenuName:NeoSansArabic
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Neo Sans Arabic Regular
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Neo Sans Arabic Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:189012
+FileModTime:593885660
+NameArray:0,Mac,18,Neo Sans Arabic
+NameArray:0,Mac,4,Neo Sans Arabic Regular
+NameArray:0,Win,1,NeoSansArabic
+NameArray:0,Win,16,Neo Sans Arabic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Kefa-Bold
+FamilyName:Kefa
+StyleName:Bold
+MenuName:Kefa
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Kefa Bold
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Kefa.ttc
+TTCOffset:316
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:361144
+FileModTime:744030012
+NameArray:0,Mac,4,Kefa Bold
+NameArray:0,Win,1,Kefa
+NameArray:0,Win,16,Kefa
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Kefa-Regular
+FamilyName:Kefa
+StyleName:Regular
+MenuName:Kefa
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Kefa Regular
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Kefa.ttc
+TTCOffset:32
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:361144
+FileModTime:744030012
+NameArray:0,Mac,4,Kefa Regular
+NameArray:0,Win,1,Kefa
+NameArray:0,Win,16,Kefa
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:KohinoorDevanagari-Bold
+FamilyName:Kohinoor Devanagari
+StyleName:Bold
+MenuName:Kohinoor Devanagari
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Kohinoor Devanagari Bold
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Kohinoor.ttc
+TTCOffset:752
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1041880
+FileModTime:744030012
+NameArray:0,Mac,4,Kohinoor Devanagari Bold
+NameArray:0,Win,1,Kohinoor Devanagari
+NameArray:0,Win,16,Kohinoor Devanagari
+NameArray:0,Win,1,		K	9	?		B	0 	&	G	5		>		0	@
+NameArray:0,Win,16,		K	9	?		B	0 	&	G	5		>		0	@
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:KohinoorDevanagari-Light
+FamilyName:Kohinoor Devanagari
+StyleName:Light
+MenuName:Kohinoor Devanagari
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Kohinoor Devanagari Light
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Kohinoor.ttc
+TTCOffset:988
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1041880
+FileModTime:744030012
+NameArray:0,Mac,4,Kohinoor Devanagari Light
+NameArray:0,Win,1,Kohinoor Devanagari
+NameArray:0,Win,16,Kohinoor Devanagari
+NameArray:0,Win,1,		K	9	?		B	0 	&	G	5		>		0	@
+NameArray:0,Win,16,		K	9	?		B	0 	&	G	5		>		0	@
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:KohinoorDevanagari-Medium
+FamilyName:Kohinoor Devanagari
+StyleName:Medium
+MenuName:Kohinoor Devanagari
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Kohinoor Devanagari Medium
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Kohinoor.ttc
+TTCOffset:280
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1041880
+FileModTime:744030012
+NameArray:0,Mac,4,Kohinoor Devanagari Medium
+NameArray:0,Win,1,Kohinoor Devanagari
+NameArray:0,Win,16,Kohinoor Devanagari
+NameArray:0,Win,1,		K	9	?		B	0 	&	G	5		>		0	@
+NameArray:0,Win,16,		K	9	?		B	0 	&	G	5		>		0	@
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:KohinoorDevanagari-Regular
+FamilyName:Kohinoor Devanagari
+StyleName:Regular
+MenuName:Kohinoor Devanagari
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Kohinoor Devanagari Regular
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Kohinoor.ttc
+TTCOffset:44
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1041880
+FileModTime:744030012
+NameArray:0,Mac,4,Kohinoor Devanagari Regular
+NameArray:0,Win,1,Kohinoor Devanagari
+NameArray:0,Win,16,Kohinoor Devanagari
+NameArray:0,Win,1,		K	9	?		B	0 	&	G	5		>		0	@
+NameArray:0,Win,16,		K	9	?		B	0 	&	G	5		>		0	@
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:KohinoorDevanagari-Semibold
+FamilyName:Kohinoor Devanagari
+StyleName:Semibold
+MenuName:Kohinoor Devanagari
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:Kohinoor Devanagari Semibold
+WritingScript:Roman
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Kohinoor.ttc
+TTCOffset:516
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:1041880
+FileModTime:744030012
+NameArray:0,Mac,4,Kohinoor Devanagari Semibold
+NameArray:0,Win,1,Kohinoor Devanagari
+NameArray:0,Win,16,Kohinoor Devanagari
+NameArray:0,Win,1,		K	9	?		B	0 	&	G	5		>		0	@
+NameArray:0,Win,16,		K	9	?		B	0 	&	G	5		>		0	@
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muna
+FamilyName:Muna
+StyleName:Regular
+MenuName:Muna
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Muna Regular
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Muna.ttc
+TTCOffset:48
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207352
+FileModTime:628436773
+NameArray:0,Mac,4,Muna Regular
+NameArray:4,Win,1,منى
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MunaBlack
+FamilyName:Muna
+StyleName:Black
+MenuName:Muna
+StyleBits:2
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Muna Black
+FamilyNameNative:
+StyleNameNative:Black
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Muna.ttc
+TTCOffset:1088
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207352
+FileModTime:628436773
+NameArray:0,Mac,4,Muna Black
+NameArray:4,Win,1,منى
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:MunaBold
+FamilyName:Muna
+StyleName:Bold
+MenuName:Muna
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Muna Bold
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:/Users/alahmadimac/KHALED'S TEAM Dropbox/khalid ahmad/المشاريع التقنية/موقع تحميل هذا هو الاسلام Folder/Document fonts/Muna.ttc
+TTCOffset:568
+DataFormat:sfntData
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:207352
+FileModTime:628436773
+NameArray:0,Mac,4,Muna Bold
+NameArray:4,Win,1,منى
+%EndFont
+
