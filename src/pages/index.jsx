@@ -35,12 +35,12 @@ export default function Home() {
       <main className={`${styles.main} ${combinedStyles.fontFamily}`} style={combinedStyles}>
         <div className="sec_container">
           <div className="bg_container">
-            <Image width={100} height={100} src="/assets/imgs/bg.jpg" alt="" />
+            <img src="/assets/imgs/bg.jpg" alt="" />
           </div>
 
           <div className="header">
             <div className="logo">
-              <Image width={100} height={100} src="/assets/imgs/logo.png" alt="" />
+              <Image width={200} height={150} src="/assets/imgs/logo.png" alt="" />
             </div>
             <div className="social_links">
               <Link href="/" className="icon_container">

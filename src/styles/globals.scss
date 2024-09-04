@@ -74,9 +74,15 @@ body {
 }
 .header {
   text-align: center;
-  margin-top: 50px;
-  font-size: 2.5rem;
+  margin-top: 24px;
   font-weight: bold;
+  .logo {
+    height: 150px;
+    img {
+      object-fit: contain;
+      height: 100%;
+    }
+  }
 }
 
 .language-selection {
