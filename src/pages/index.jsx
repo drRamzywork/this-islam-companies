@@ -5,6 +5,7 @@ import { IoMdShareAlt } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
 import localFont from 'next/font/local'
+import Link from "next/link";
 
 const Arabic = localFont({
   src: [
@@ -22,7 +23,6 @@ export default function Home() {
   const combinedStyles = {
     ...Arabic.style,
   };
-  console.log(combinedStyles.fontFamily, "combinedStyles")
   return (
     <>
       <Head>
@@ -35,52 +35,52 @@ export default function Home() {
       <main className={`${styles.main} ${combinedStyles.fontFamily}`} style={combinedStyles}>
         <div className="sec_container">
           <div className="bg_container">
-            <img src="/assets/imgs/bg.jpg" alt="" />
+            <Image width={100} height={100} src="/assets/imgs/bg.jpg" alt="" />
           </div>
 
           <div className="header">
             <div className="logo">
-              <img src="/assets/imgs/logo.png" alt="" />
+              <Image width={100} height={100} src="/assets/imgs/logo.png" alt="" />
             </div>
             <div className="social_links">
-              <a href="/" className="icon_container">
+              <Link href="/" className="icon_container">
                 <TfiEmail />
 
-              </a>
+              </Link>
 
-              <a href="/" className="icon_container">
+              <Link href="/" className="icon_container">
                 <IoMdShareAlt />
 
-              </a>
+              </Link>
 
 
-              <a href="/" className="icon_container">
+              <Link href="/" className="icon_container">
                 <FaWhatsapp />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="language-selection text-center">
             <ul>
               <li>
-                <a href="#">عربي</a>
+                <Link href="#">عربي</Link>
               </li>
               <li>
-                <a href="#">English</a>
+                <Link href="#">English</Link>
               </li>
               <li>
-                <a href="#">Indonesia</a>
+                <Link href="#">Indonesia</Link>
               </li>
               <li>
-                <a href="#">Italiano</a>
+                <Link href="#">Italiano</Link>
               </li>
               <li>
-                <a href="#">Español</a>
+                <Link href="#">Español</Link>
               </li>
               <li>
-                <a href="#">Français</a>
+                <Link href="#">Français</Link>
               </li>
               <li>
-                <a href="#">भाारतीीय</a>
+                <Link href="#">भाारतीीय</Link>
               </li>
             </ul>
           </div>
