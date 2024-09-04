@@ -78,9 +78,15 @@ body {
   font-weight: bold;
   .logo {
     height: 150px;
+    @media screen and (max-width: 450px) {
+      height: unset;
+    }
     img {
       object-fit: contain;
       height: 100%;
+      @media screen and (max-width: 450px) {
+        height: 100px;
+      }
     }
   }
 }
