@@ -6,6 +6,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
 import localFont from 'next/font/local'
 import Link from "next/link";
+import axios from "axios";
 
 const Arabic = localFont({
   src: [
@@ -90,3 +91,6 @@ export default function Home() {
     </>
   );
 }
+
+
+
