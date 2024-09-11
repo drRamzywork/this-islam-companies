@@ -69,11 +69,9 @@ export default function Home({ companyData }) {
 
               </Link>
 
-              <Link href="/" onClick={handleShare} className="icon_container">
+              <div onClick={handleShare} className="icon_container">
                 <IoMdShareAlt />
-
-              </Link>
-
+              </div>
 
               <Link href={`https://wa.me/${whatsappNumber}?text=Hello%20I%20am%20interested%20in%20your%20services`} target='_blank' className="icon_container">
                 <FaWhatsapp />
