@@ -55,13 +55,17 @@ export default function Home({ companyData }) {
       <main className={`${styles.main} ${combinedStyles.fontFamily}`} style={combinedStyles}>
         <div className="sec_container">
           <div className="bg_container">
-            <img src="/assets/imgs/bg.jpg" alt="" />
+            {/* <img src="/assets/imgs/bg.jpg" alt="" /> */}
           </div>
 
           <div className="header">
-            <div className="logo">
-              <Image width={200} height={150} src={companyData.logo} alt="" />
-            </div>
+            <a href={companyData.properties.website} target="_blank" className="logo">
+              <img src={companyData.logo} alt="" />
+            </a>
+
+            <a href={companyData.properties.website} target="_blank" className="desc">
+              <p>{companyData.properties.desc}</p>
+            </a>
 
             <div className="social_links">
               <Link href={`mailto:${email}?subject=Inquiry&body=Hello%20I%20am%20interested%20in%20your%20services`} target="_blank" className="icon_container">
