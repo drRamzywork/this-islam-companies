@@ -30,7 +30,7 @@ export default function Home() {
         <title>هذا هو الإسلام</title>
         <meta name="description" content="هذا هو الإسلام" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/assets/imgs/logo.png" />
+        <link rel="icon" href="/logo.ico" />
       </Head>
 
       <main className={`${styles.main} ${combinedStyles.fontFamily}`} style={combinedStyles}>
