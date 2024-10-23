@@ -90,6 +90,7 @@ body {
   }
   .logo {
     height: 150px;
+    margin-bottom: 24px;
     @media screen and (max-width: 450px) {
       height: unset;
     }
@@ -98,6 +99,7 @@ body {
       width: 160px;
       object-fit: contain;
       border-radius: 13px;
+      margin-top: 44px;
     }
   }
 

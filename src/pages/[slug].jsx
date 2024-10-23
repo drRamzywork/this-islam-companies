@@ -55,10 +55,12 @@ export default function Home({ companyData }) {
 
         <div className="sec_container">
           <div className="bg_container">
-            {/* <img src="/assets/imgs/bg.jpg" alt="" /> */}
+            {/* <img src="/hero_bg.png" alt="" /> */}
           </div>
 
           <div className="header">
+
+
             <a href={companyData.properties.website} target="_blank" className="logo">
               <img src={companyData.logo} alt="" />
             </a>

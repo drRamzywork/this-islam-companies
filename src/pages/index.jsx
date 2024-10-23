@@ -35,9 +35,9 @@ export default function Home() {
 
       <main className={`${styles.main} ${combinedStyles.fontFamily}`} style={combinedStyles}>
         <div className="sec_container">
-          <div className="bg_container">
+          {/* <div className="bg_container">
             <img src="/assets/imgs/bg.jpg" alt="" />
-          </div>
+          </div> */}
 
           <div className="header">
             <div className="logo">
