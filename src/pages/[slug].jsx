@@ -55,7 +55,7 @@ export default function Home({ companyData }) {
 
         <div className="sec_container">
           <div className="bg_container">
-            {/* <img src="/hero_bg.png" alt="" /> */}
+            <img src="/hero_bg.png" alt="" />
           </div>
 
           <div className="header">
@@ -72,7 +72,6 @@ export default function Home({ companyData }) {
             <div className="social_links">
               <Link href={`mailto:${email}`} target="_blank" className="icon_container">
                 <TfiEmail />
-
               </Link>
 
               <div onClick={handleShare} className="icon_container">
@@ -89,9 +88,10 @@ export default function Home({ companyData }) {
           <div className="language-selection text-center">
             <ul>
 
+
               {companyData.languages.map((lang, idx) =>
                 <li key={idx}>
-                  <Link href={lang.link} target="_blank">{lang.name}</Link>
+                  <Link href={lang.link} target="_blank">{lang.name} <br /> {lang.native}</Link>
                 </li>
               )}
 
