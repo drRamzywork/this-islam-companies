@@ -60,6 +60,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
+
           <div className="language-selection text-center">
             <ul>
               <li>

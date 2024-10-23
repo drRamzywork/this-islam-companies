@@ -25,7 +25,6 @@ export default function Home({ companyData }) {
     ...Arabic.style,
   };
 
-
   const whatsappNumber = companyData.properties.Whatsapp;
   const email = companyData.properties.Email;
 
@@ -38,11 +37,11 @@ export default function Home({ companyData }) {
         .then(() => console.log('Thanks for sharing!'))
         .catch(console.error);
     } else {
-      // Fallback: Copy URL to clipboard or open share modal
       navigator.clipboard.writeText(window.location.href);
       alert("URL copied to clipboard!");
     }
   };
+
   return (
     <>
       <Head>
@@ -53,6 +52,7 @@ export default function Home({ companyData }) {
       </Head>
 
       <main className={`${styles.main} ${combinedStyles.fontFamily}`} style={combinedStyles}>
+
         <div className="sec_container">
           <div className="bg_container">
             {/* <img src="/assets/imgs/bg.jpg" alt="" /> */}
@@ -68,7 +68,7 @@ export default function Home({ companyData }) {
             </a>
 
             <div className="social_links">
-              <Link href={`mailto:${email}?subject=Inquiry&body=Hello%20I%20am%20interested%20in%20your%20services`} target="_blank" className="icon_container">
+              <Link href={`mailto:${email}`} target="_blank" className="icon_container">
                 <TfiEmail />
 
               </Link>
@@ -77,12 +77,13 @@ export default function Home({ companyData }) {
                 <IoMdShareAlt />
               </div>
 
-              <Link href={`https://wa.me/${whatsappNumber}?text=Hello%20I%20am%20interested%20in%20your%20services`} target='_blank' className="icon_container">
+              <Link href={`https://wa.me/${whatsappNumber}`} target='_blank' className="icon_container">
                 <FaWhatsapp />
               </Link>
             </div>
 
           </div>
+
           <div className="language-selection text-center">
             <ul>
 
@@ -109,14 +110,19 @@ export async function getServerSideProps({ params }) {
     const response = await axios.get(`https://compaines.thisislam.net/api/company/${slug}`);
     const companyData = response.data.data;
 
+
+
+
+
+
     return {
       props: {
         companyData,
-      },
+      }
     };
   } catch (error) {
     return {
-      notFound: false, // If no company is found, show a 404 page
+      notFound: false,
     };
   }
 }
