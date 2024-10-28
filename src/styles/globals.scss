@@ -97,17 +97,19 @@ body {
     display: block;
   }
   .logo {
-    height: 150px;
-    margin-bottom: 24px;
+    // height: 150px;
+    // margin-bottom: 24px;
     @media screen and (max-width: 450px) {
       height: unset;
     }
     img {
-      height: 100px;
-      width: 160px;
+      // height: 100px;
+      // width: 160px;
+      height: 223px;
+      width: 100%;
+
       object-fit: contain;
-      border-radius: 13px;
-      margin-top: 44px;
+      // margin-top: 44px;www
     }
   }
 

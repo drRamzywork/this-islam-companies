@@ -48,7 +48,6 @@ export default function Home({ companyData }) {
   };
 
 
-  console.log(slug, "slug")
 
   return (
     <>

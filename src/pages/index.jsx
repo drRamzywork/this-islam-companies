@@ -27,8 +27,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>هذا هو الإسلام</title>
-        <meta name="description" content="هذا هو الإسلام" />
+        <title>Thi is islam</title>
+        <meta name="description" content="Thi is islam" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.ico" />
       </Head>
