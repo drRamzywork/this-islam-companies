@@ -52,6 +52,11 @@ body {
     margin-top: 24px;
     margin-bottom: 24px;
 
+    @media screen and (max-width: 450px) {
+      margin-bottom: 16px;
+      margin-top: 8px;
+    }
+
     .icon_container {
       width: 48px;
       height: 48px;
@@ -105,7 +110,10 @@ body {
     img {
       // height: 100px;
       // width: 160px;
-      height: 223px;
+      height: 180px;
+      @media screen and (max-width: 450px) {
+        height: 130px;
+      }
       width: 100%;
 
       object-fit: contain;
@@ -164,6 +172,10 @@ body {
   transition: all 0.3s ease-in-out;
   font-family: "__Arabic_2a4cda", "__Arabic_Fallback_2a4cda";
   font-weight: 500;
+
+  @media screen and (max-width: 450px) {
+    font-size: 17px;
+  }
 }
 
 .language-selection a:hover {
