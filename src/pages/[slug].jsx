@@ -52,8 +52,8 @@ export default function Home({ companyData }) {
   return (
     <>
       <Head>
-        <title>هذا هو الإسلام</title>
-        <meta name="description" content="هذا هو الإسلام" />
+        <title>This is islam</title>
+        <meta name="description" content=" This is islam" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={"/logo.ico"} />
       </Head>
