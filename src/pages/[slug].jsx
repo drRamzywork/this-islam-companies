@@ -7,6 +7,9 @@ import { TfiEmail } from "react-icons/tfi";
 import localFont from 'next/font/local'
 import Link from "next/link";
 import axios from "axios";
+import SimpleBar from "simplebar-react";
+import { FaPhoneVolume } from "react-icons/fa6";
+import { useRouter } from "next/router";
 
 const Arabic = localFont({
   src: [
@@ -21,6 +24,8 @@ const Arabic = localFont({
 
 
 export default function Home({ companyData }) {
+  const { query } = useRouter();
+  const slug = query.slug;
   const combinedStyles = {
     ...Arabic.style,
   };
@@ -41,6 +46,9 @@ export default function Home({ companyData }) {
       alert("URL copied to clipboard!");
     }
   };
+
+
+  console.log(slug, "slug")
 
   return (
     <>
@@ -77,25 +85,49 @@ export default function Home({ companyData }) {
               <div onClick={handleShare} className="icon_container">
                 <IoMdShareAlt />
               </div>
+              {slug === 'blue-mosque-information-center' ?
+                <Link href={`tel:${whatsappNumber}`} className="icon_container">
+                  <FaPhoneVolume />
+                </Link>
+                :
+                <Link href={`https://wa.me/${whatsappNumber}`} target='_blank' className="icon_container">
+                  <FaWhatsapp />
+                </Link>
 
-              <Link href={`https://wa.me/${whatsappNumber}`} target='_blank' className="icon_container">
-                <FaWhatsapp />
-              </Link>
+              }
+
             </div>
 
           </div>
 
           <div className="language-selection text-center">
-            <ul>
 
 
-              {companyData.languages.map((lang, idx) =>
-                <li key={idx}>
-                  <Link href={lang.link} target="_blank">{lang.name} <br /> {lang.native}</Link>
-                </li>
-              )}
 
-            </ul>
+            <SimpleBar
+              style={{
+                height: "58vh",
+                overflowX: "hidden",
+                width: 'fit-content',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}
+            >
+              <ul>
+
+
+                {companyData.languages.map((lang, idx) =>
+                  <li key={idx}>
+                    <Link href={lang.link} target="_blank">{lang.name} <br /> {lang.native}</Link>
+                  </li>
+                )}
+
+              </ul>
+
+
+            </SimpleBar>
+
           </div>
         </div>
 
