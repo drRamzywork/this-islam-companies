@@ -1,0 +1,12 @@
+.vertical_swiper {
+  height: 100%;
+  overflow: hidden;
+
+  width: 400px;
+  @media screen and (max-width: 992px) {
+    width: 100%;
+  }
+
+  margin-top: 23px;
+  // transform: translateY(-200px);
+}

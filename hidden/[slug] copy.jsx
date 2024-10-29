@@ -14,7 +14,7 @@ import { useRouter } from "next/router";
 const Arabic = localFont({
   src: [
     {
-      path: '../../public/assets/fonts/neo-sans-arabic-regular.ttf',
+      // path: '../../public/assets/fonts/neo-sans-arabic-regular.ttf',
       weight: '500',
       style: 'normal',
     },

@@ -15,6 +15,10 @@
 body {
   background-color: #f8f9fa;
   font-family: "__Arabic_2a4cda", "__Arabic_Fallback_2a4cda";
+
+  * {
+    user-select: none !important;
+  }
 }
 
 .sec_container {
@@ -49,8 +53,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 16px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 0px;
+    margin-bottom: 16px;
 
     @media screen and (max-width: 450px) {
       margin-bottom: 16px;
@@ -110,7 +114,7 @@ body {
     img {
       // height: 100px;
       // width: 160px;
-      height: 180px;
+      height: 155px;
       @media screen and (max-width: 450px) {
         height: 130px;
       }
@@ -145,21 +149,32 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  // gap: 16px;
   align-items: center;
   // padding-bottom: 24px;
   // height: 436px;
-  padding-right: 24px;
+
+  @media screen and (min-width: 992px) {
+    width: 280px;
+  }
+  @media screen and (max-width: 450px) {
+    width: 100%;
+  }
 }
 
 .language-selection ul li {
-  display: inline;
   margin: 0px;
+  margin: auto;
+  display: block;
   background-color: #ffffffb8;
   border-radius: 12px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
   width: 230px;
+
+  @media screen and (max-width: 450px) {
+    width: 200px;
+  }
   &:hover {
     background-color: rgb(0 54 112 / 24%);
   }
@@ -176,6 +191,10 @@ body {
   @media screen and (max-width: 450px) {
     font-size: 17px;
   }
+
+  p {
+    margin: 0;
+  }
 }
 
 .language-selection a:hover {
@@ -191,5 +210,41 @@ body {
 }
 
 .simplebar-content {
-  width: fit-content;
+  @media screen and (max-width: 450px) {
+    width: fit-content;
+  }
+}
+
+//  Swiper
+
+.swiper {
+  width: 100% !important;
+}
+
+.swiper-wrapper {
+  height: 58vh !important;
+  width: 100%;
+
+  @media screen and (min-width: 1200px) {
+    // height: 48vh !important;
+  }
+}
+
+.swiper-pagination {
+  display: none;
+}
+
+.swiper-scrollbar-drag {
+  cursor: pointer !important;
+}
+
+.swiper-scrollbar {
+  width: 8px !important;
+  @media screen and (max-width: 450px) {
+    right: 54px !important;
+  }
+}
+
+.swiper-slide {
+  display: flex !important;
 }
