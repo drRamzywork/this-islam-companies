@@ -136,7 +136,7 @@ export default function Home({ companyData }) {
                 ref={swiperRef}
                 onSlideChange={handleSlideChange}
                 direction={"vertical"}
-                slidesPerView={3.5}
+                slidesPerView={4.5}
                 spaceBetween={8}
                 pagination={{
                   clickable: true,
