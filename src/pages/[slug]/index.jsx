@@ -9,6 +9,7 @@ import Link from "next/link";
 import axios from "axios";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { useRouter } from "next/router";
+import { FaInstagram } from "react-icons/fa6";
 
 
 
@@ -43,6 +44,7 @@ export default function Home({ companyData }) {
 
   const whatsappNumber = companyData.properties.Whatsapp;
   const email = companyData.properties.Email;
+  const ig = companyData.properties.ig;
 
   const handleShare = () => {
     if (navigator.share) {
@@ -113,9 +115,23 @@ export default function Home({ companyData }) {
                 <IoMdShareAlt />
               </div>
               {slug === 'blue-mosque-information-center' ?
-                <Link href={`tel:${whatsappNumber}`} className="icon_container">
-                  <FaPhoneVolume />
-                </Link>
+
+                <>
+                  {/* <Link href={`tel:${whatsappNumber}`} className="icon_container">
+                    <FaPhoneVolume />
+                  </Link> */}
+
+
+                  <Link href={`${ig}`} target="_blank" className="icon_container ig">
+                    <FaInstagram />
+                  </Link>
+
+
+
+
+
+                </>
+
                 :
                 <Link href={`https://wa.me/${whatsappNumber}`} target='_blank' className="icon_container">
                   <FaWhatsapp />
@@ -126,6 +142,7 @@ export default function Home({ companyData }) {
             </div>
 
           </div>
+
           <div className="language-selection text-center">
 
 
